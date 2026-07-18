@@ -4,8 +4,8 @@ public class Linkedlist {
         LinkedList<Integer> list = new LinkedList<>();
         list.add(1);
         list.add(2);
-        list.addLast(100);
-        list.addFirst(90);
+        list.addLast(1000);
+        list.addFirst(900);
         System.out.println(list.peekLast());
         System.out.println(list);
         list.removeFirst();
